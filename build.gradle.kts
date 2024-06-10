@@ -17,16 +17,7 @@ base {
 
 dependencies {
     implementation(project(":eco-core:core-plugin"))
-    implementation(project(":eco-core:core-nms:v1_17_R1"))
-    implementation(project(":eco-core:core-nms:v1_18_R1"))
-    implementation(project(":eco-core:core-nms:v1_18_R2"))
-    implementation(project(":eco-core:core-nms:v1_19_R1"))
-    implementation(project(":eco-core:core-nms:v1_19_R2"))
-    implementation(project(":eco-core:core-nms:v1_19_R3"))
-    implementation(project(":eco-core:core-nms:v1_20_R1"))
-    implementation(project(":eco-core:core-nms:v1_20_R2"))
     implementation(project(":eco-core:core-nms:v1_20_R3", configuration = "reobf"))
-    implementation(project(":eco-core:core-nms:v1_20_6", configuration = "reobf"))
 }
 
 allprojects {
@@ -48,7 +39,7 @@ allprojects {
     }
 
     dependencies {
-        compileOnly("com.willfp:eco:6.70.0")
+        compileOnly("com.willfp:eco:6.70.1")
         compileOnly("org.jetbrains:annotations:23.0.0")
         compileOnly("org.jetbrains.kotlin:kotlin-stdlib:1.9.20")
         compileOnly("com.github.ben-manes.caffeine:caffeine:3.1.5")
